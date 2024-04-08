@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.container {
+  width: 140rem;
+  /* height: 200rem; */
+  background-color: #dee2e6;
+  border-radius: 5px;
+  padding: 4rem 8rem;
+  box-shadow: 0px 0px 5px #b7b7b7e3;
+  display: flex;
+  gap: 2rem;
+}
+.button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  width: 10rem;
+  height: 4rem;
+  cursor: pointer;
+}
